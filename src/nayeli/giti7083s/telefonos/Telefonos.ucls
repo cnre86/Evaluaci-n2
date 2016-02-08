@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="nayeli.giti7083s.telefonos.TelefonoFijo" project="Evaluacion1" 
+    file="/Evaluacion1/src/nayeli/giti7083s/telefonos/TelefonoFijo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="163" x="527" y="165"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="nayeli.giti7083s.telefonos.VideoPlayer" project="Evaluacion1" 
+    file="/Evaluacion1/src/nayeli/giti7083s/telefonos/VideoPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="117" x="324" y="322"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="nayeli.giti7083s.telefonos.Telefono" project="Evaluacion1" 
+    file="/Evaluacion1/src/nayeli/giti7083s/telefonos/Telefono.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="163" x="527" y="322"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="nayeli.giti7083s.telefonos.VideoTelefono" project="Evaluacion1" 
+    file="/Evaluacion1/src/nayeli/giti7083s/telefonos/VideoTelefono.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="163" x="324" y="165"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="nayeli.giti7083s.telefonos.TestTelefonos" project="Evaluacion1" 
+    file="/Evaluacion1/src/nayeli/giti7083s/telefonos/TestTelefonos.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="117" x="167" y="165"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="nayeli.giti7083s.telefonos.TelefonoMovil" project="Evaluacion1" 
+    file="/Evaluacion1/src/nayeli/giti7083s/telefonos/TelefonoMovil.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="163" x="730" y="165"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="7">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
